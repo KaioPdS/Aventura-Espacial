@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura Espacial: O Capitão e a Tripulação</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Como capitão da nave estelar Astralis, você e sua tripulação estão em uma missão para explorar uma galáxia desconhecida. Após meses de viagem, um sinal misterioso vindo de um planeta próximo aparece nos sensores da nave. O que você vai fazer?</p>
+            <button class="btn-proximo" data-proximo="1">Investigar o sinal no planeta</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o sinal e seguir a missão original</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você decide descer ao planeta. A atmosfera é densa e misteriosa. Ao pousar, você encontra ruínas de uma civilização antiga. De repente, os sistemas da nave começam a falhar. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Enviar uma equipe de reparo</button>
+            <button class="btn-proximo" data-proximo="4">Explorar as ruínas enquanto a nave é consertada</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você escolhe continuar a missão original, ignorando o sinal. Após algumas horas, sua nave é atacada por uma frota desconhecida!</p>
+            <button class="btn-proximo" data-proximo="5">Tentar negociar com a frota</button>
+            <button class="btn-proximo" data-proximo="6">Entrar em combate</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>A equipe de reparo encontra um dispositivo alienígena nas ruínas que está interferindo com os sistemas da nave. Agora, você precisa decidir: destruir o dispositivo ou tentar entender como ele funciona.</p>
+            <button class="btn-proximo" data-proximo="7">Destruir o dispositivo</button>
+            <button class="btn-proximo" data-proximo="8">Estudar o dispositivo alienígena</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Explorando as ruínas, você e sua equipe encontram uma tecnologia avançada de viagens intergalácticas. Você pode usá-la para saltar instantaneamente para outra galáxia, mas é arriscado. O que você fará?</p>
+            <button class="btn-proximo" data-proximo="9">Usar a tecnologia para saltar</button>
+            <button class="btn-proximo" data-proximo="10">Voltar à nave e abandonar o planeta</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você tenta negociar com a frota, mas eles são implacáveis e continuam a atacar. A nave está em perigo!</p>
+            <button class="btn-proximo" data-proximo="11">Recuar e fugir</button>
+            <button class="btn-proximo" data-proximo="12">Lutar até o fim</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Em combate, você usa todas as habilidades da sua tripulação, mas a frota inimiga é poderosa. Após uma batalha intensa, você enfrenta a decisão de continuar lutando ou tentar uma fuga de emergência.</p>
+            <button class="btn-proximo" data-proximo="11">Tentar escapar</button>
+            <button class="btn-proximo" data-proximo="12">Lutar até o fim</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você destrói o dispositivo alienígena e os sistemas da nave voltam ao normal. Porém, ao sair do planeta, a destruição do dispositivo provoca um colapso na gravidade local e vocês mal escapam da destruição do planeta.</p>
+            <button class="btn-proximo" data-proximo="13">Retornar para a base com segurança</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao estudar o dispositivo, você ativa um portal interdimensional que transporta sua nave para uma galáxia desconhecida, cheia de novos desafios e aventuras.</p>
+            <button class="btn-proximo" data-proximo="14">Explorar a nova galáxia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você ativa a tecnologia avançada, e sua nave salta para uma galáxia distante, repleta de planetas desconhecidos e novos perigos. A viagem começa!</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Decidindo não arriscar, você volta à nave e abandona o planeta. A nave decola, mas algo continua intrigando você sobre aquelas ruínas.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você ordena a fuga e, por pouco, sua nave consegue escapar. A tripulação está abalada, mas vocês sobreviveram para lutar outro dia.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você decide lutar até o fim, mas a frota inimiga é implacável. Sua nave é destruída, e você se pergunta se poderia ter escolhido outro caminho.</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Com a destruição do planeta, sua tripulação retorna para a base com novas descobertas e histórias heroicas para contar.</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Agora, em uma galáxia desconhecida, você e sua tripulação se tornam exploradores de novas fronteiras, enfrentando o desconhecido e descobrindo novas civilizações.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
